@@ -178,7 +178,7 @@ def gerar() -> Path:
     pdf.setFillColor(ROXO)
     pdf.setFont("Helvetica-Bold", 13)
     pdf.drawString(389, 288, "4. CHECKLIST")
-    checkbox_visual(pdf, 389, 259, "Repositório público")
+    checkbox_visual(pdf, 389, 259, "Repositório público", marcado=True)
     checkbox_visual(pdf, 389, 232, "Código-fonte completo", marcado=True)
     checkbox_visual(pdf, 389, 205, "README documentado", marcado=True)
     checkbox_visual(pdf, 389, 178, "Testes aprovados", marcado=True)
