@@ -148,7 +148,7 @@ def gerar() -> Path:
         48,
         354,
         LARGURA - 96,
-        "https://github.com/SEU_USUARIO/gerenciador-inteligente-tarefas",
+        "https://github.com/Daniel9011as/gerenciador-inteligente-tarefas",
         9,
     )
 

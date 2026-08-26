@@ -72,7 +72,7 @@ gerenciador-inteligente-tarefas/
 Requisito: Python 3.11 ou superior.
 
 ```bash
-git clone https://github.com/SEU_USUARIO/gerenciador-inteligente-tarefas.git
+git clone https://github.com/Daniel9011as/gerenciador-inteligente-tarefas.git
 cd gerenciador-inteligente-tarefas
 python main.py
 ```
@@ -134,17 +134,17 @@ classDiagram
 
 ## Publicação no GitHub
 
-1. Crie no GitHub um repositório público vazio chamado
-   `gerenciador-inteligente-tarefas`.
-2. No terminal, dentro desta pasta, execute:
+O projeto está publicado em:
+
+<https://github.com/Daniel9011as/gerenciador-inteligente-tarefas>
+
+Para enviar atualizações pelo terminal, execute dentro desta pasta:
 
 ```bash
-git remote add origin https://github.com/SEU_USUARIO/gerenciador-inteligente-tarefas.git
+git remote add origin https://github.com/Daniel9011as/gerenciador-inteligente-tarefas.git
 git branch -M main
 git push -u origin main
 ```
-
-3. Copie a URL pública do repositório para a folha de identificação.
 
 ## Autor
 
