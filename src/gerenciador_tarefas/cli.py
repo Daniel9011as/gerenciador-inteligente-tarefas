@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from datetime import date, datetime
+from getpass import getpass
 from pathlib import Path
 from typing import Callable
 
@@ -92,7 +93,7 @@ class AplicacaoCLI:
             self._ler_inteiro("ID: "),
             input("Nome: "),
             input("E-mail: "),
-            input("Senha: "),
+            getpass("Senha: "),
         )
         print(f"Usuário {usuario.nome} cadastrado.")
 
@@ -201,4 +202,3 @@ class AplicacaoCLI:
         csv_criado = exportador.exportar_csv(diretorio / "tarefas_pendentes.csv")
         txt_criado = exportador.exportar_txt(diretorio / "produtividade.txt")
         print(f"Arquivos criados: {csv_criado} e {txt_criado}")
-
