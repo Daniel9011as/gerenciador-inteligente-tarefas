@@ -1,0 +1,11 @@
+[project]
+name = "gerenciador-inteligente-tarefas"
+version = "1.0.0"
+description = "Projeto de POO para gerenciamento de usuários, projetos e tarefas"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
